@@ -6,8 +6,7 @@ python:
 install:
   - pip install -r requirements.txt
 
-script:
-  - govno
+script: pytest
 
 #notifications:
 #  email:
