@@ -192,6 +192,7 @@ def enc_rec_hill(A, B):
     print('Шифртекст: ', k)
     return save_key(Key[0]), save_key(Key[1])
 
+
 # b = 'n'
 # A = np.zeros((1, 1), dtype=int)
 # B = np.zeros((1, 1), dtype=int)
