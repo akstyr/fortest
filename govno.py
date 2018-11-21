@@ -7,5 +7,5 @@ class My_test(unittest.TestCase):
         res = Hill.add_text(['a'], 7)
         self.assertEquals(res,['a', 33, 33, 33, 33, 33, 33])
 
-# if __name__ == '__main__':
-#     unittest.main()
+if __name__ == '__main__':
+    unittest.main()
