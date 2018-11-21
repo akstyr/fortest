@@ -13,4 +13,4 @@ notifications:
     on_success: always
     on_failure: always
 
-script: my_tests.py
+script: tests.py
