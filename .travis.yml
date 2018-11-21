@@ -6,11 +6,11 @@ python:
 install:
   - pip install -r requirements.txt
 
-notifications:
-  email:
-    recipients:
-    - katya.grohotova.4@gmail.com
-    on_success: always
-    on_failure: always
-
 script: tests.py
+
+#notifications:
+#  email:
+#    recipients:
+#    - katya.grohotova.4@gmail.com
+#    on_success: always
+#    on_failure: always
